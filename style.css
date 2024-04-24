@@ -1,6 +1,73 @@
 
-.container-grid {
-    width: 200px;
-    max-width: 1400px;
+/* o asterisco engloba todo o site, header footer, main etc. toda mudança no asterisco sera aplica em todo site */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
 }
 
+.container-grid {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    border: 1px solid greenyellow;
+    height: 172px;
+    
+    background-color: #FCFCFC;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.logo {
+    width: 319px;
+    height: 124px;
+   
+}
+
+.menu {
+    border: 1px solid green;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-header {
+    text-decoration: none;
+    font-size: 20px;
+    color: #A22FC2;
+    text-transform: uppercase;
+}
+
+/* border-radius: curvatura caixa
+   display: flex; serve para utilizar o justif e o align
+   justify-content: alinha o item verticalmente
+   align-items: alinha horizontalmente; 
+*/
+.box-links {
+    border: 3px solid #A22FC2;
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.favicon {
+    width: 140px;
+    height: 140px;
+
+}
