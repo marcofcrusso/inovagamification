@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Bungee";
+    src: url(fonts/Bungee-Regular.ttf);
+
+    font-family: "space grotesk";
+    src: url(fonts/SpaceGrotesk-Regular.ttf);
+}
 
 /* o asterisco engloba todo o site, header footer, main etc. toda mudança no asterisco sera aplica em todo site */
 * {
@@ -5,6 +12,10 @@
     padding: 0%;
     box-sizing: border-box;
     
+}
+
+body {
+    background-color: #A22FC2;
 }
 
 .container-grid {
@@ -71,3 +82,55 @@ header {
     height: 140px;
 
 }
+
+.sobre {
+    border: 3px solid crimson;
+    width: 1200px;
+    height: 250px;
+    background-color: #fcfcfc;
+    margin: auto;
+   margin-top: 50px;
+   border-radius: 20px;
+    
+}
+
+.sobre h1 {
+    text-align: center;
+    font-family: "Bungee-Regular";
+    font-size: 30px;
+    color: #A22FC2;
+    padding-top: 25px;
+}
+
+.sobre p {
+    text-align: center;
+    font-family: "space grotesk";
+    font-size: 20px;
+    color: #A22FC2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 250px;
+}
+
+#clientes {
+    border: 3px solid crimson;
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+    background-color: #fcfcfc;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+.depoimentos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
