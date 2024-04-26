@@ -19,7 +19,7 @@ body {
 }
 
 .container-grid {
-    width: 1080px;
+    /* width: 1080px; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -126,6 +126,7 @@ header {
 
 }
 
+
 .depoimentos{
     display: flex;
     justify-content: space-between;
@@ -150,22 +151,77 @@ header {
     background-color: #FCFCFC;
     border-radius: 20px;
     margin-top: 50px;
-
+    
 }
 
 
-.imageclient img{
+.imageclient img {
     width: 200px;
     padding-top: 20px;
+    
+    
 }
 
 .todos-logos-clientes {
     display: flex;
     justify-content: space-between;
+    gap: 160px; 
+}
+
+#cases {
+    margin-top: 50px;
+}
+
+.container-cases {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+}
+.case {
+    border: 3px solid chartreuse;
+    height: 250px;
+    width: 250px;
+    background-color: #a0ecd0;
+    box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+.case p {
+    font-size: 30px;
+    font-family: "bungee";
+    text-align: center;
+    padding-top: 60px;
+    color: #11001c ;
+    line-height: 1.5;
 }
 
 
+#porquegamificar {
+    margin-top: 50px;
+}
 
+.caixaporque {
+    width: 1200px;
+    height: 500px;
+    background-color: #FCFCFC;
+    border-radius: 20px;
+}
+
+.porque {
+    border: 3px solid #11001C;
+    height: 140px;
+    width: 300px;
+    background-color: #a0ecd0;
+    box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.porque p {
+    font-size: 30px;
+    font-family: "bungee";
+    text-align: center;
+    line-height: 1.5;
+}
 
 
 
