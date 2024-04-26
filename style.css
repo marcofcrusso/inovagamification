@@ -41,14 +41,14 @@ header {
 }
 
 .logo {
-    width: 319px;
-    height: 124px;
+    width: 250px;
+    
    
 }
 
 .menu {
     border: 1px solid green;
-    width: 700px;
+    width: 650px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -57,9 +57,10 @@ header {
 
 .links-header {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #A22FC2;
     text-transform: uppercase;
+    font-family: "bungee";
 }
 
 /* border-radius: curvatura caixa
@@ -78,8 +79,8 @@ header {
 }
 
 .favicon {
-    width: 140px;
-    height: 140px;
+    width: 97.17px;
+    
 
 }
 
@@ -130,6 +131,42 @@ header {
     justify-content: space-between;
     
 }
+
+.cliente img {
+    width: 200px;
+
+}
+
+.cliente p {
+    font-family: "space grotesk";
+    font-size: 20px;
+    padding-top: 12px;
+    color: #A22FC2;
+}
+
+#logos-clientes {
+    width: 1200px;
+    height: 300px;
+    background-color: #FCFCFC;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+
+
+.imageclient img{
+    width: 200px;
+    padding-top: 20px;
+}
+
+.todos-logos-clientes {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
 
 
