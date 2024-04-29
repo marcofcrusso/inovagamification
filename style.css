@@ -11,7 +11,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -30,20 +30,20 @@ body {
 header {
     border: 1px solid greenyellow;
     height: 172px;
-    
+
     background-color: #FCFCFC;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-     
+
 }
 
 .logo {
     width: 250px;
-    
-   
+
+
 }
 
 .menu {
@@ -75,12 +75,12 @@ header {
     border-radius: 12px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .favicon {
     width: 97.17px;
-    
+
 
 }
 
@@ -90,9 +90,9 @@ header {
     height: 250px;
     background-color: #fcfcfc;
     margin: auto;
-   margin-top: 50px;
-   border-radius: 20px;
-    
+    margin-top: 50px;
+    border-radius: 20px;
+
 }
 
 .sobre h1 {
@@ -127,10 +127,10 @@ header {
 }
 
 
-.depoimentos{
+.depoimentos {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .cliente img {
@@ -151,21 +151,21 @@ header {
     background-color: #FCFCFC;
     border-radius: 20px;
     margin-top: 50px;
-    
+
 }
 
 
 .imageclient img {
     width: 200px;
     padding-top: 20px;
-    
-    
+
+
 }
 
 .todos-logos-clientes {
     display: flex;
     justify-content: space-between;
-    gap: 160px; 
+    gap: 160px;
 }
 
 #cases {
@@ -178,13 +178,14 @@ header {
     gap: 150px;
 
 }
+
 .case {
     border: 3px solid chartreuse;
     height: 250px;
     width: 250px;
     background-color: #a0ecd0;
     box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.75);
-    
+
 }
 
 .case p {
@@ -192,13 +193,14 @@ header {
     font-family: "bungee";
     text-align: center;
     padding-top: 60px;
-    color: #11001c ;
+    color: #11001c;
     line-height: 1.5;
 }
 
 
 #porquegamificar {
     margin-top: 50px;
+
 }
 
 .caixaporque {
@@ -206,6 +208,19 @@ header {
     height: 500px;
     background-color: #FCFCFC;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caixaporque h1 {
+    font-size: 40px;
+    font-family: "bungee";
+    text-align: center;
+    color: #A22FC2;
+    
 }
 
 .porque {
@@ -214,6 +229,11 @@ header {
     width: 300px;
     background-color: #a0ecd0;
     box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .porque p {
@@ -223,7 +243,135 @@ header {
     line-height: 1.5;
 }
 
+.porquea {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.porqueb {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 40px;
+}
 
 
+#formulario form {
+    width: 710px;
+    height: 725px;
 
+    margin-top: 50px;
 
+    padding: 24px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #a0ecd0;
+    
+    color: #11001C;
+    font-family: "space grotesk";
+    font-size: 17px;
+}
+
+.campo {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo-descricao {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: white;
+    background-color: #FCFCFC;
+
+    border-radius: 4px;
+
+    text-indent: 10px;
+
+    outline: none;
+}
+
+.campo-descricao textarea {
+    color: white;
+    background-color: #351868;
+
+    border: none;
+    border-radius: 4px;
+
+    outline: none;
+
+    padding: 10px;
+
+    resize: none;
+
+}
+
+.campo label, .campo-descricao label {
+    margin-bottom: 15px;
+}
+
+.campo input, .campo-descricao textarea {
+    font-family: "space grotesk";
+    font-size: 17px;
+}
+
+.campo input::placeholder,
+.campo-descricao textarea::placeholder {
+    color: #a0a0a0;
+}
+
+.campo input:focus,
+.campo-descricao textarea:focus {
+    outline: 2px solid var(#A22FC2);
+}
+
+#formulario form button {
+    height: 40px;
+    width: 60%;
+
+    background-color: #F2AC29;
+    color: #11001C;
+
+    border: #11001C;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-family: "bungee";
+    font-weight: 700; /*bold*/
+
+    text-transform: uppercase; /*caixa alta*/
+
+    cursor: pointer; /*maozinha na seta*/
+
+    transition: background-color 500ms; /*velocidade transicao do hover*/
+
+}
+
+#contato form button:hover {
+    background-color: #ad4929;
+
+}
