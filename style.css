@@ -258,11 +258,19 @@ header {
 }
 
 
-#formulario form {
-    width: 710px;
-    height: 725px;
-
+.caixaformulario {
+    width: 1200px;
+    height: 500px;
+    background-color: #a0a0a0;
+    border-radius: 20px;
+    
     margin-top: 50px;
+    padding-right: 20px;
+}
+
+#formulario form {
+    width: 600px;
+    height: 725px;
 
     padding: 24px;
     
@@ -317,9 +325,9 @@ header {
 
 .campo-descricao textarea {
     color: white;
-    background-color: #351868;
+    background-color: #FCFCFC;
 
-    border: none;
+   
     border-radius: 4px;
 
     outline: none;
@@ -331,7 +339,7 @@ header {
 }
 
 .campo label, .campo-descricao label {
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
 .campo input, .campo-descricao textarea {
