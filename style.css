@@ -260,17 +260,18 @@ header {
 
 .caixaformulario {
     width: 1200px;
-    height: 500px;
+    height: 700px;
     background-color: #a0a0a0;
     border-radius: 20px;
     
     margin-top: 50px;
-    padding-right: 20px;
+    
+    display: flex;
+    justify-content: space-between;
 }
 
 #formulario form {
     width: 600px;
-    height: 725px;
 
     padding: 24px;
     
@@ -279,12 +280,14 @@ header {
     align-items: center;
 
     border-radius: 20px;
+    border: 3px solid #11001C;
     background-color: #a0ecd0;
     
     color: #11001C;
     font-family: "space grotesk";
     font-size: 17px;
 }
+
 
 .campo {
     width: 60%;
@@ -295,7 +298,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
 
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+
 }
 
 .campo-descricao {
@@ -316,8 +320,9 @@ header {
     color: white;
     background-color: #FCFCFC;
 
-    border-radius: 4px;
-
+    border: 3px solid #11001C;
+    border-radius: 20px;
+    
     text-indent: 10px;
 
     outline: none;
@@ -327,8 +332,8 @@ header {
     color: white;
     background-color: #FCFCFC;
 
-   
-    border-radius: 4px;
+    border: 3px solid #11001C;
+    border-radius: 20px;
 
     outline: none;
 
@@ -344,12 +349,12 @@ header {
 
 .campo input, .campo-descricao textarea {
     font-family: "space grotesk";
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .campo input::placeholder,
 .campo-descricao textarea::placeholder {
-    color: #a0a0a0;
+    color: #910909;
 }
 
 .campo input:focus,
@@ -365,7 +370,7 @@ header {
     color: #11001C;
 
     border: #11001C;
-    border-radius: 4px;
+    border-radius: 20px;
 
     font-size: 17px;
     font-family: "bungee";
@@ -376,10 +381,23 @@ header {
     cursor: pointer; /*maozinha na seta*/
 
     transition: background-color 500ms; /*velocidade transicao do hover*/
+    box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+#formulario form button:hover {
+    background-color: #8a5f0fca;
 
 }
 
-#contato form button:hover {
-    background-color: #ad4929;
-
+.videos {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
+
+
+
+
