@@ -53,6 +53,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 100px;
 }
 
 .links-header {
@@ -76,11 +77,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FCFCFC;
+    transition: background-color 0,3s ease;
+}
+
+.box-links:hover {
+    background-color: #e1d7e4;
 }
 
 .favicon {
     width: 97.17px;
-
 
 }
 
@@ -185,7 +191,13 @@ header {
     width: 250px;
     background-color: #a0ecd0;
     box-shadow: 9px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: background-color 0,3s ease;
+    transition: border 0,3s ease;
+}
 
+.case:hover {
+    background-color: #F2AC29;
+    border: #F2AC29;
 }
 
 .case p {
