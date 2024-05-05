@@ -91,7 +91,7 @@ header {
 }
 
 .sobre {
-    border: 3px solid crimson;
+    
     width: 1200px;
     height: 250px;
     background-color: #fcfcfc;
@@ -121,7 +121,7 @@ header {
 }
 
 #clientes {
-    border: 3px solid crimson;
+    
     text-align: center;
     width: 1200px;
     height: 500px;
@@ -129,6 +129,7 @@ header {
     margin: auto;
     margin-top: 50px;
     border-radius: 20px;
+    padding: 10px;
 
 }
 
@@ -149,6 +150,7 @@ header {
     font-size: 20px;
     padding-top: 12px;
     color: #A22FC2;
+    
 }
 
 #logos-clientes {
@@ -425,12 +427,14 @@ header {
     margin-top: 50px;
 
     border-radius: 20px;
-
+    
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 
-    padding-top: 80px;
+    padding: 90px;
+    padding-top: 70px;
+
+    gap: 75px;
 
 }
 
@@ -439,14 +443,41 @@ header {
     font-family: "space grotesk";
     font-size: 30px;
     margin-bottom: 12px;
+    
 }
 
 .logosfooter img {
     margin-bottom: 12px;
 }
 
+.endereco-fone-email p {
+    font-family: "space grotesk";
+    font-size: 30px;
+    margin-bottom: 80px;
+
+}
+
+#direitos-reservados {
+    width: 1200px;
+    height: 50px;
+
+    background-color: #a0ecd0;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    border-radius: 20px;
 
 
+
+}
+
+#direitos-reservados p {
+    font-family: "space-grotesk";
+    font-size: 22px;
+    color: #A22FC2;
+    
+}
 
 
 
