@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    border: 1px solid greenyellow;
+    
     height: 172px;
 
     background-color: #FCFCFC;
@@ -40,6 +40,7 @@ header {
 
 }
 
+
 .logo {
     width: 250px;
 
@@ -47,7 +48,7 @@ header {
 }
 
 .menu {
-    border: 1px solid green;
+    
     width: 650px;
     height: 50px;
     display: flex;
@@ -483,5 +484,112 @@ header {
 }
 
 
+@media screen and (max-width: 1400px) {
+
+    .logo {
+        margin-left: 60px;
+    }
+
+    .favicon {
+        margin-right: 60px;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+
+    .menu {
+        margin: 75px;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+
+    .logo {
+        margin-left: 10vw;
+    }
+
+    .favicon {
+        margin-right: 10vw;
+    }
 
 
+    .menu {
+        margin: 50px;
+    }
+
+    .sobre {
+        width: 95vw;
+    }
+
+    #clientes {
+        width: 95vw;
+    }
+
+    #logos-clientes {
+        width: 95vw;
+    }
+
+    .caixabanner {
+        width: 95vw;
+    }
+
+    .caixaporque {
+        width: 90vw;
+    }
+
+    .logosfooter {
+
+        width: 95vw;
+
+    }
+
+    #direitos-reservados {
+        width: 95vw;
+    }
+
+    .caixaformulario {
+        width: 95vw;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .sobre p {
+        font-size: 15px;
+    }
+
+    .cliente p {
+        font-size: 15px;
+    }
+
+    .todos-logos-clientes {
+        gap: 40px;
+    }
+
+    .container-cases {
+        gap: 10px;
+    }
+
+    .caixabanner img {
+        width: 100%;
+    }
+
+    .videos iframe{
+        width: 400px;
+        height: 250px;
+    }
+
+    .porque p {
+        font-size: 20px;
+    }
+
+    .porque {
+        width: 200px;
+    }
+
+
+}
