@@ -579,8 +579,12 @@ header {
         width: 115px;
     }
 
+    .logo {
+        margin-left: 12vw;
+    }
+
     .menu {
-        margin: 40px;
+        margin: 20px;
         gap: 10px;
     }
 
@@ -843,8 +847,8 @@ header {
 }
 
 @media screen and (max-width: 400px) {
-    
 
+    
 
 
 }
