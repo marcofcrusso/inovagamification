@@ -86,6 +86,9 @@ header {
     background-color: #e1d7e4;
 }
 
+.box-links {
+    margin-right: 10px;
+}
 
 
 .favicon {
@@ -735,3 +738,113 @@ header {
 
 }
 
+@media screen and (max-width: 520px) {
+
+    header {
+        height: 50%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .menu {
+        margin: 10px;
+        gap: 3px;
+    }
+
+    .box-links {
+        width: 90px;
+        height: 20px;
+    }
+
+    .links-header {
+        font-size: 10px;
+    }
+
+    .favicon {
+        width: 30px;
+    }
+
+    .cliente img {
+        width: 150px;
+    }
+
+    .imageclient img {
+        width: 150px;
+        padding-top: 20px;
+    }
+
+    .case {
+        height: 150px;
+        width: 150px;
+    }
+
+    .case p {
+        padding-top: 30px;
+    }
+
+    .container-cases {
+        gap: 15px;
+    }
+
+    .porque {
+        width: 135px;
+        height: 120px;
+    }
+
+    .porque p {
+        font-size: 15px;
+    }
+    
+    .videos iframe {
+        width: 150px;
+        height: 90px;
+    }
+
+    .caixabanner img {
+        width: 493,05px;
+        height: 133,88px;
+    }
+
+    .caixabanner {
+        width: 493,05px;
+        height: 133,88px;
+    }
+
+    .caixabanner {
+        height: 150px;
+    }
+
+    .teste img {
+        width: 150px;
+    }
+
+    .icones-redes a svg {
+        width: 30px;
+    }
+
+    .logosfooter {
+        padding: 10px;
+        gap: 40px;
+    }
+
+    .endereco-fone-email p {
+        font-size: 16px;
+    }
+
+    #direitos-reservados p {
+        font-size: 16px;
+    }
+    .logosfooter {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+
+
+
+}
