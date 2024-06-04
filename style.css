@@ -348,7 +348,7 @@ height: 20px;
 .campo input {
     height: 40px;
 
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #FCFCFC;
 
     border: 3px solid #11001C;
@@ -360,7 +360,7 @@ height: 20px;
 }
 
 .campo-descricao textarea {
-    color: white;
+    color: rgb(6, 6, 6);
     background-color: #FCFCFC;
 
     border: 3px solid #11001C;
@@ -635,6 +635,8 @@ height: 20px;
 
 @media screen and (max-width: 800px) {
 
+
+
     .logo {
         margin-right: 300px;
     }
@@ -769,7 +771,7 @@ height: 20px;
 
     .box-links {
         width: 110px;
-        height: 20px;
+        height: 30px;
     }
 
     .links-header {
@@ -814,6 +816,7 @@ height: 20px;
 
     #lupa {
         width: 15px;
+        margin-right: 5px;
     }
 
 .logo {
@@ -843,7 +846,7 @@ height: 20px;
 
     .box-links {
         width: 90px;
-        height: 20px;
+        height: 25px;
     }
 
     .links-header {
@@ -931,6 +934,11 @@ height: 20px;
 }
 
 @media screen and (max-width: 400px) {
+
+    #lupa {
+        width: 15px;
+        
+    }
 
     header {
         height: 40%;
